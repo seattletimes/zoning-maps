@@ -1,0 +1,177 @@
+@import "seattletimes";
+
+.interactive {
+  max-width: 960px;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+.row {
+  .display-flex();
+
+  @media @mobile {
+    display: block;
+  }
+
+  .cell {
+    .flex(0 0 50%);
+  }
+}
+
+.text.cell {
+  padding-right: 20px;
+  @media @mobile {
+    padding-right: 0;
+  }
+}
+
+.map-container {
+  position: relative;
+  margin: 4px 0;
+
+  &::before {
+    content: "";
+    display: block;
+    padding-bottom: 120%;
+  }
+
+  leaflet-map {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.bar-container {
+  position: relative;
+  &.empty { display: none }
+
+  h3 {
+    margin-bottom: 0;
+    font-size: 18px;
+  }
+
+  .bar {
+    font-style: italic;
+  }
+
+  .block {
+    height: 20px;
+    min-width: 1px;
+    background: black;
+    position: relative;
+
+    &:hover, &:focus {
+      .tooltip {
+        display: block;
+      }
+    }
+  }
+
+  .key {
+    font-size: 14px;
+    text-align: center;
+
+    .item {
+      display: inline-block;
+      padding-right: 8px;
+    }
+
+    .block {
+      width: 13px;
+      height: 13px;
+    }
+  }
+
+  .tooltip {
+    position: absolute;
+    background: white;
+    padding: 0 0 8px;
+    bottom: 110%;
+    display: none;
+    box-shadow: 0 8px 16px fade(black, 20%);
+    font-style: normal;
+
+    .block {
+      display: block;
+      height: 8px;
+    }
+
+    .text {
+      padding: 0 8px;
+      white-space: nowrap;
+    }
+
+    b {
+      text-transform: uppercase;
+    }
+  }
+}
+
+.block {
+  display: inline-block;
+  &.white {
+    background:  @df-light-gray;
+  }
+
+  &.black {
+    background: @st-dark-green;
+  }
+
+  &.asian {
+    background: @st-light-blue;
+  }
+
+  &.hispanic {
+    background: @df-blue;
+  }
+
+  &.multiple {
+    background: peru;
+  }
+
+  &.pacific.islander {
+    background: @df-navy;
+  }
+
+  &.native.american {
+    background: @st-dark-orange;
+  }
+
+  &.other {
+    background: @st-light-green;
+  }
+}
+
+.map-key {
+  .display-flex();
+
+  label {
+    padding: 0 4px;
+    text-transform: uppercase;
+  }
+
+  .gradient {
+    .flex(1 1 0%);
+    color: white;
+
+    &.lower {
+      background: linear-gradient(to right, @st-dark-red, white);
+    }
+
+    &.upper {
+      background: linear-gradient(to right, white, @st-dark-purple);
+      text-align: right;
+    }
+  }
+}

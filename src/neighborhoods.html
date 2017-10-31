@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <%= t.include("partials/_head.html", grunt.data.json) %>
+    <link rel="stylesheet" type="text/css" href="neighborhoods.css">
+  </head>
+  <body>
+
+    <responsive-child>
+      <main class="interactive">
+        <div class="row">
+          <div class="text cell">
+            <h1>Seattle neighborhood demographics by zoning</h1>
+            <p>
+              Click on a neighborhood to see its data.
+            </p>
+
+            <h2 class="neighborhood-label"></h2>
+
+            <div class="bar-container empty">
+              <div class="tooltip hidden"></div>
+
+              <div class="key">
+                <div class="item"><i class="asian block"></i> Asian</div>
+                <div class="item"><i class="black block"></i> Black</div>
+                <div class="item"><i class="hispanic block"></i> Hispanic</div>
+                <div class="item"><i class="multiple block"></i> Multiple</div>
+                <div class="item"><i class="native american block"></i> Native American</div>
+                <div class="item"><i class="other block"></i> Other</div>
+                <div class="item"><i class="pacific islander block"></i> Pacific Islander</div>
+                <div class="item"><i class="white block"></i> White</div>
+              </div>
+
+              <h3>Population in single-family zones</h3>
+              <div class="bar single-family"></div>
+
+              <h3>Population in multi-family zones</h3>
+              <div class="bar multi-family"></div>
+            </div>
+          </div>
+          <div class="cell">
+            <h3>White population by neighborhood</h3>
+            <div class="map-container">
+              <leaflet-map>
+                <tile-layer layer="cartoPositron"></tile-layer>
+                <map-options>{ "scrollWheelZoom": false, "maxZoom": 13 }</map-options>
+              </leaflet-map>
+            </div>
+            <div class="map-key">
+              <div class="lower gradient">
+                <label>Lower</label>
+              </div>
+              <label>City average</label>
+              <div class="upper gradient">
+                <label>Higher</label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </responsive-child>
+
+    <script>
+<% 
+csv.neighborhoods.forEach(function(r) {
+  r.population = 0;
+  csv.population.forEach(function(s) {
+    if (s.neighborhood == r.neighborhood && s.race == r.race) {
+      r.population = s.population;
+    }
+  })
+})
+%>
+window.neighborhoodData = <%= JSON.stringify(csv.neighborhoods) %>;
+    </script>
+
+    <script src="neighborhoods.js" async></script>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_analytics.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+  </body>
+</html>

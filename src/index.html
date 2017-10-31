@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <%= t.include("partials/_head.html", grunt.data.json) %>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+    <responsive-child>
+      <main class="interactive">
+        <div class="row">
+          <div class="text cell">
+            <h1>The relationship between zoning and demographics</h1>
+            <p>
+              Outlined areas represent parts of Seattle now zoned for multi-family housing. Choose a filter below (representing Seattle’s three largest minority groups) to see where different demographics are concentrated in Seattle. Brightly colored regions represent areas with higher-than-average population for that race or ethnicity.
+            </p>
+            
+            <div class="controls">
+              Filter: 
+              <button class="set-demo" data-demo="asian">Asian</button>
+              <button class="set-demo active" data-demo="black">Black</button>
+              <button class="set-demo" data-demo="hispanic">Hispanic</button>
+              <button class="set-demo" data-demo="white">White</button>
+              <!--
+              <button class="set-demo" data-demo="native">Native American</button>
+              <button class="set-demo" data-demo="pi">Pacific Islander</button>
+              <button class="set-demo" data-demo="multiple">Multiple</button>
+              <button class="set-demo" data-demo="other">Other</button> 
+              -->
+            </div>
+
+            <h2><span class="demo-label"></span> population density</h2>
+            <div class="key">
+              <div class="label">Lowest</div>
+              <div class="key-gradient"></div>
+              <div class="label">Highest</div>
+            </div>
+          </div>
+          <div class="map-container cell">
+            <leaflet-map>
+              <tile-layer layer="cartoPositron"></tile-layer>
+              <map-options>{ "scrollWheelZoom": false, "maxZoom": 13 }</map-options>
+            </leaflet-map>
+          </div>
+        </div>
+        <div class="source">Sources: U.S. Census Bureau, 2010 Census, block-level data; City of Seattle zoning maps</div>
+        <div class="credit">Thomas Wilburn / The Seattle Times</div>
+      </main>
+    </responsive-child>
+
+    <script>
+window.heatData = <%= JSON.stringify(csv.blocks) %>;
+    </script>
+
+    <script src="app.js" async></script>
+    <% if (json.project.production) { %>
+    <%= !json.project.embedded ? t.include("partials/_analytics.html") : "" %>
+    <%= t.include("partials/_workHere.html") %>
+    <% } %>
+  </body>
+</html>

@@ -1,0 +1,478 @@
+neighborhood,race,sf,mf,population
+Alki/Admiral,white,5684,3273,9174
+Alki/Admiral,black,79,101,316
+Alki/Admiral,hispanic,219,192,454
+Alki/Admiral,asian,316,234,675
+Alki/Admiral,multiple,189,158,433
+Alki/Admiral,pacific islander,2,4,0
+Alki/Admiral,native american,31,33,41
+Alki/Admiral,other,18,9,0
+Alki/Admiral,total,6538,4004,11093
+Arbor Heights,white,4810,78,5026
+Arbor Heights,black,87,3,146
+Arbor Heights,hispanic,361,4,307
+Arbor Heights,asian,314,8,278
+Arbor Heights,multiple,276,4,318
+Arbor Heights,pacific islander,30,1,116
+Arbor Heights,native american,36,0,136
+Arbor Heights,other,16,0,0
+Arbor Heights,total,5930,97,6327
+Ballard,white,747,4330,6866
+Ballard,black,8,127,186
+Ballard,hispanic,51,283,456
+Ballard,asian,31,304,665
+Ballard,multiple,33,180,222
+Ballard,pacific islander,0,5,0
+Ballard,native american,5,41,0
+Ballard,other,1,15,0
+Ballard,total,878,5285,8395
+Beacon Hill,white,1711,143,1811
+Beacon Hill,black,844,167,1122
+Beacon Hill,hispanic,496,85,771
+Beacon Hill,asian,4657,407,5697
+Beacon Hill,multiple,428,39,528
+Beacon Hill,pacific islander,54,5,0
+Beacon Hill,native american,39,3,0
+Beacon Hill,other,21,2,0
+Beacon Hill,total,8249,852,9929
+Belltown,white,0,5844,6275
+Belltown,black,0,611,757
+Belltown,hispanic,0,532,411
+Belltown,asian,0,1135,1418
+Belltown,multiple,0,318,421
+Belltown,pacific islander,0,33,0
+Belltown,native american,0,111,100
+Belltown,other,0,17,54
+Belltown,total,0,8601,9436
+Broadview/Bitter Lake,white,6907,2843,9630
+Broadview/Bitter Lake,black,381,545,1318
+Broadview/Bitter Lake,hispanic,456,326,743
+Broadview/Bitter Lake,asian,756,582,1437
+Broadview/Bitter Lake,multiple,364,216,608
+Broadview/Bitter Lake,pacific islander,24,22,38
+Broadview/Bitter Lake,native american,61,43,83
+Broadview/Bitter Lake,other,21,10,0
+Broadview/Bitter Lake,total,8971,4586,13857
+Capitol Hill,white,0,13621,15392
+Capitol Hill,black,0,956,1137
+Capitol Hill,hispanic,0,1353,1412
+Capitol Hill,asian,0,1715,2614
+Capitol Hill,multiple,0,804,1228
+Capitol Hill,pacific islander,0,55,57
+Capitol Hill,native american,0,138,259
+Capitol Hill,other,0,49,40
+Capitol Hill,total,0,18692,22139
+Cascade/Eastlake,white,416,8771,10271
+Cascade/Eastlake,black,6,953,710
+Cascade/Eastlake,hispanic,13,895,1006
+Cascade/Eastlake,asian,23,1650,2816
+Cascade/Eastlake,multiple,9,540,883
+Cascade/Eastlake,pacific islander,1,46,19
+Cascade/Eastlake,native american,1,143,195
+Cascade/Eastlake,other,0,27,77
+Cascade/Eastlake,total,470,13025,15977
+Cedar Park/Meadowbrook,white,6457,1728,8801
+Cedar Park/Meadowbrook,black,381,745,1325
+Cedar Park/Meadowbrook,hispanic,470,551,1087
+Cedar Park/Meadowbrook,asian,1091,555,1472
+Cedar Park/Meadowbrook,multiple,401,220,595
+Cedar Park/Meadowbrook,pacific islander,26,33,113
+Cedar Park/Meadowbrook,native american,51,50,61
+Cedar Park/Meadowbrook,other,26,9,16
+Cedar Park/Meadowbrook,total,8902,3892,13470
+Central Area/Squire Park,white,4211,5544,12711
+Central Area/Squire Park,black,1857,1718,2947
+Central Area/Squire Park,hispanic,461,884,1400
+Central Area/Squire Park,asian,395,743,1448
+Central Area/Squire Park,multiple,375,521,1007
+Central Area/Squire Park,pacific islander,14,16,14
+Central Area/Squire Park,native american,24,60,101
+Central Area/Squire Park,other,18,18,18
+Central Area/Squire Park,total,7355,9505,19646
+Columbia City,white,4058,962,6249
+Columbia City,black,2603,1852,4573
+Columbia City,hispanic,812,528,1304
+Columbia City,asian,3693,1229,4917
+Columbia City,multiple,604,252,1025
+Columbia City,pacific islander,103,49,64
+Columbia City,native american,51,40,91
+Columbia City,other,34,13,0
+Columbia City,total,11957,4927,18223
+Downtown Commercial Core,white,0,2838,2834
+Downtown Commercial Core,black,0,386,429
+Downtown Commercial Core,hispanic,0,214,283
+Downtown Commercial Core,asian,0,417,491
+Downtown Commercial Core,multiple,0,113,156
+Downtown Commercial Core,pacific islander,0,8,18
+Downtown Commercial Core,native american,0,71,119
+Downtown Commercial Core,other,0,23,105
+Downtown Commercial Core,total,0,4070,4435
+Duwamish/SODO,white,454,353,1326
+Duwamish/SODO,black,102,74,292
+Duwamish/SODO,hispanic,179,101,329
+Duwamish/SODO,asian,385,112,577
+Duwamish/SODO,multiple,53,38,255
+Duwamish/SODO,pacific islander,7,3,0
+Duwamish/SODO,native american,14,37,53
+Duwamish/SODO,other,10,1,0
+Duwamish/SODO,total,1205,720,2832
+Fauntleroy/Seaview,white,9785,1635,11858
+Fauntleroy/Seaview,black,212,128,367
+Fauntleroy/Seaview,hispanic,489,183,770
+Fauntleroy/Seaview,asian,505,109,650
+Fauntleroy/Seaview,multiple,442,107,797
+Fauntleroy/Seaview,pacific islander,24,5,0
+Fauntleroy/Seaview,native american,55,21,171
+Fauntleroy/Seaview,other,18,5,36
+Fauntleroy/Seaview,total,11528,2195,14649
+First Hill,white,38,7093,9551
+First Hill,black,15,1965,1531
+First Hill,hispanic,4,921,1350
+First Hill,asian,12,1709,2402
+First Hill,multiple,6,389,766
+First Hill,pacific islander,0,57,29
+First Hill,native american,0,186,191
+First Hill,other,0,46,41
+First Hill,total,75,12365,15861
+Fremont,white,5456,7230,13942
+Fremont,black,96,192,182
+Fremont,hispanic,259,389,679
+Fremont,asian,357,618,858
+Fremont,multiple,258,381,1012
+Fremont,pacific islander,3,14,0
+Fremont,native american,30,53,27
+Fremont,other,13,26,17
+Fremont,total,6472,8904,16717
+Georgetown,white,284,409,799
+Georgetown,black,14,46,21
+Georgetown,hispanic,72,73,117
+Georgetown,asian,46,75,33
+Georgetown,multiple,15,26,62
+Georgetown,pacific islander,2,2,0
+Georgetown,native american,7,7,23
+Georgetown,other,0,3,0
+Georgetown,total,440,643,1055
+Green Lake,white,8130,3492,12196
+Green Lake,black,117,78,208
+Green Lake,hispanic,391,207,780
+Green Lake,asian,637,449,1638
+Green Lake,multiple,402,197,779
+Green Lake,pacific islander,6,5,0
+Green Lake,native american,35,17,1
+Green Lake,other,36,13,11
+Green Lake,total,9754,4458,15613
+Greenwood/Phinney Ridge,white,15598,3674,20178
+Greenwood/Phinney Ridge,black,375,197,404
+Greenwood/Phinney Ridge,hispanic,921,420,1234
+Greenwood/Phinney Ridge,asian,1106,415,1692
+Greenwood/Phinney Ridge,multiple,743,214,1394
+Greenwood/Phinney Ridge,pacific islander,41,15,10
+Greenwood/Phinney Ridge,native american,118,37,82
+Greenwood/Phinney Ridge,other,45,29,46
+Greenwood/Phinney Ridge,total,18947,5001,25040
+Haller Lake,white,4713,1506,6660
+Haller Lake,black,316,355,643
+Haller Lake,hispanic,480,363,1070
+Haller Lake,asian,1219,539,1296
+Haller Lake,multiple,363,163,434
+Haller Lake,pacific islander,12,19,124
+Haller Lake,native american,54,28,84
+Haller Lake,other,40,7,0
+Haller Lake,total,7198,2980,10311
+High Point,white,1225,1277,3003
+High Point,black,317,1944,3034
+High Point,hispanic,248,482,549
+High Point,asian,381,664,1067
+High Point,multiple,121,209,304
+High Point,pacific islander,19,96,119
+High Point,native american,27,37,0
+High Point,other,4,13,17
+High Point,total,2341,4723,8093
+Highland Park,white,2557,363,3537
+Highland Park,black,304,94,313
+Highland Park,hispanic,666,214,631
+Highland Park,asian,1048,142,1160
+Highland Park,multiple,290,46,1105
+Highland Park,pacific islander,82,10,208
+Highland Park,native american,68,17,15
+Highland Park,other,10,0,0
+Highland Park,total,5025,886,6969
+Interbay,white,2930,4211,7599
+Interbay,black,70,165,936
+Interbay,hispanic,231,355,597
+Interbay,asian,241,362,747
+Interbay,multiple,149,245,479
+Interbay,pacific islander,12,21,14
+Interbay,native american,14,42,56
+Interbay,other,8,11,0
+Interbay,total,3654,5412,10428
+Judkins Park,white,165,737,1316
+Judkins Park,black,97,541,766
+Judkins Park,hispanic,21,297,93
+Judkins Park,asian,58,818,956
+Judkins Park,multiple,33,131,321
+Judkins Park,pacific islander,0,7,0
+Judkins Park,native american,3,11,26
+Judkins Park,other,0,6,0
+Judkins Park,total,376,2548,3478
+Laurelhurst/Sand Point,white,6899,1338,8750
+Laurelhurst/Sand Point,black,109,82,241
+Laurelhurst/Sand Point,hispanic,217,76,239
+Laurelhurst/Sand Point,asian,643,356,1243
+Laurelhurst/Sand Point,multiple,295,73,488
+Laurelhurst/Sand Point,pacific islander,21,11,7
+Laurelhurst/Sand Point,native american,10,12,17
+Laurelhurst/Sand Point,other,16,4,8
+Laurelhurst/Sand Point,total,8211,1951,10993
+Licton Springs,white,2685,2955,6261
+Licton Springs,black,160,387,238
+Licton Springs,hispanic,310,515,957
+Licton Springs,asian,516,765,1513
+Licton Springs,multiple,194,276,623
+Licton Springs,pacific islander,10,13,14
+Licton Springs,native american,24,39,0
+Licton Springs,other,8,18,0
+Licton Springs,total,3907,4968,9606
+Madison Park,white,3173,1279,4211
+Madison Park,black,37,16,67
+Madison Park,hispanic,99,37,127
+Madison Park,asian,118,66,303
+Madison Park,multiple,89,37,280
+Madison Park,pacific islander,0,2,0
+Madison Park,native american,5,4,0
+Madison Park,other,0,0,0
+Madison Park,total,3521,1441,4988
+Madrona/Leschi,white,4919,1267,5998
+Madrona/Leschi,black,1017,1020,1519
+Madrona/Leschi,hispanic,260,253,580
+Madrona/Leschi,asian,425,239,850
+Madrona/Leschi,multiple,335,143,1316
+Madrona/Leschi,pacific islander,6,28,0
+Madrona/Leschi,native american,19,17,64
+Madrona/Leschi,other,20,6,0
+Madrona/Leschi,total,7001,2972,10327
+Magnolia,white,9888,670,11062
+Magnolia,black,113,23,44
+Magnolia,hispanic,340,43,492
+Magnolia,asian,650,73,762
+Magnolia,multiple,380,45,635
+Magnolia,pacific islander,15,3,0
+Magnolia,native american,29,4,29
+Magnolia,other,31,1,33
+Magnolia,total,11446,862,13057
+Miller Park,white,3753,1456,5732
+Miller Park,black,242,240,396
+Miller Park,hispanic,177,107,271
+Miller Park,asian,220,126,514
+Miller Park,multiple,184,81,269
+Miller Park,pacific islander,5,2,0
+Miller Park,native american,6,5,20
+Miller Park,other,4,4,10
+Miller Park,total,4592,2021,7212
+Montlake/Portage Bay,white,4600,2598,7608
+Montlake/Portage Bay,black,104,57,148
+Montlake/Portage Bay,hispanic,164,119,423
+Montlake/Portage Bay,asian,347,258,621
+Montlake/Portage Bay,multiple,210,107,389
+Montlake/Portage Bay,pacific islander,4,6,42
+Montlake/Portage Bay,native american,14,5,27
+Montlake/Portage Bay,other,26,11,24
+Montlake/Portage Bay,total,5470,3160,9282
+Mt. Baker/North Rainier,white,2707,568,3890
+Mt. Baker/North Rainier,black,565,422,1235
+Mt. Baker/North Rainier,hispanic,141,144,267
+Mt. Baker/North Rainier,asian,409,573,597
+Mt. Baker/North Rainier,multiple,213,102,281
+Mt. Baker/North Rainier,pacific islander,3,8,0
+Mt. Baker/North Rainier,native american,22,15,31
+Mt. Baker/North Rainier,other,12,2,0
+Mt. Baker/North Rainier,total,4072,1834,6301
+North Beach/Blue Ridge,white,8122,1253,9965
+North Beach/Blue Ridge,black,164,103,25
+North Beach/Blue Ridge,hispanic,404,182,681
+North Beach/Blue Ridge,asian,501,156,663
+North Beach/Blue Ridge,multiple,325,115,537
+North Beach/Blue Ridge,pacific islander,7,4,0
+North Beach/Blue Ridge,native american,51,24,65
+North Beach/Blue Ridge,other,16,5,78
+North Beach/Blue Ridge,total,9588,1843,12014
+North Beacon Hill/Jefferson Park,white,2158,1966,4877
+North Beacon Hill/Jefferson Park,black,598,1077,2047
+North Beacon Hill/Jefferson Park,hispanic,551,1543,1912
+North Beacon Hill/Jefferson Park,asian,2844,2176,4941
+North Beacon Hill/Jefferson Park,multiple,337,304,892
+North Beacon Hill/Jefferson Park,pacific islander,22,23,26
+North Beacon Hill/Jefferson Park,native american,27,72,99
+North Beacon Hill/Jefferson Park,other,13,13,0
+North Beacon Hill/Jefferson Park,total,6551,7175,14794
+North Capitol Hill,white,1513,2023,3984
+North Capitol Hill,black,13,31,20
+North Capitol Hill,hispanic,52,129,125
+North Capitol Hill,asian,90,150,215
+North Capitol Hill,multiple,45,87,105
+North Capitol Hill,pacific islander,2,2,0
+North Capitol Hill,native american,2,12,0
+North Capitol Hill,other,1,5,0
+North Capitol Hill,total,1719,2438,4449
+North Delridge,white,1897,1342,3300
+North Delridge,black,104,190,347
+North Delridge,hispanic,216,292,577
+North Delridge,asian,218,175,614
+North Delridge,multiple,109,97,216
+North Delridge,pacific islander,11,13,0
+North Delridge,native american,12,24,0
+North Delridge,other,4,4,0
+North Delridge,total,2572,2136,5054
+Northgate/Maple Leaf,white,6469,2936,10197
+Northgate/Maple Leaf,black,307,444,528
+Northgate/Maple Leaf,hispanic,462,571,1016
+Northgate/Maple Leaf,asian,918,949,2370
+Northgate/Maple Leaf,multiple,439,274,701
+Northgate/Maple Leaf,pacific islander,27,55,34
+Northgate/Maple Leaf,native american,60,58,8
+Northgate/Maple Leaf,other,19,21,25
+Northgate/Maple Leaf,total,8703,5307,14879
+Olympic Hills/Victory Heights,white,7237,2003,9166
+Olympic Hills/Victory Heights,black,552,435,1187
+Olympic Hills/Victory Heights,hispanic,701,457,1165
+Olympic Hills/Victory Heights,asian,1641,685,2942
+Olympic Hills/Victory Heights,multiple,489,200,852
+Olympic Hills/Victory Heights,pacific islander,36,18,98
+Olympic Hills/Victory Heights,native american,69,33,71
+Olympic Hills/Victory Heights,other,23,8,54
+Olympic Hills/Victory Heights,total,10748,3839,15535
+Pioneer Square/International District,white,0,1589,1708
+Pioneer Square/International District,black,0,884,770
+Pioneer Square/International District,hispanic,0,322,276
+Pioneer Square/International District,asian,0,2241,2147
+Pioneer Square/International District,multiple,0,192,223
+Pioneer Square/International District,pacific islander,0,14,0
+Pioneer Square/International District,native american,0,75,201
+Pioneer Square/International District,other,0,16,5
+Pioneer Square/International District,total,0,5333,5330
+Queen Anne,white,10740,16863,31595
+Queen Anne,black,132,597,945
+Queen Anne,hispanic,410,1139,1679
+Queen Anne,asian,611,1667,3649
+Queen Anne,multiple,421,861,1834
+Queen Anne,pacific islander,13,42,56
+Queen Anne,native american,48,125,199
+Queen Anne,other,15,41,128
+Queen Anne,total,12390,21336,40085
+Rainier Beach,white,3062,344,3309
+Rainier Beach,black,3115,1421,4098
+Rainier Beach,hispanic,745,515,2263
+Rainier Beach,asian,3699,573,4592
+Rainier Beach,multiple,715,103,776
+Rainier Beach,pacific islander,120,37,357
+Rainier Beach,native american,53,41,43
+Rainier Beach,other,23,3,0
+Rainier Beach,total,11532,3037,15438
+Ravenna/Bryant,white,14312,4234,19692
+Ravenna/Bryant,black,219,263,466
+Ravenna/Bryant,hispanic,686,374,836
+Ravenna/Bryant,asian,1357,1098,2935
+Ravenna/Bryant,multiple,728,344,1373
+Ravenna/Bryant,pacific islander,16,19,74
+Ravenna/Bryant,native american,36,36,55
+Ravenna/Bryant,other,59,21,131
+Ravenna/Bryant,total,17412,6388,25562
+Riverview,white,2025,174,2228
+Riverview,black,398,64,463
+Riverview,hispanic,320,45,253
+Riverview,asian,1042,37,1046
+Riverview,multiple,212,25,531
+Riverview,pacific islander,55,11,103
+Riverview,native american,31,3,46
+Riverview,other,14,1,0
+Riverview,total,4097,361,4670
+Roxhill/Westwood,white,5663,1305,6869
+Roxhill/Westwood,black,632,440,1399
+Roxhill/Westwood,hispanic,1097,826,1907
+Roxhill/Westwood,asian,1128,449,1493
+Roxhill/Westwood,multiple,422,176,726
+Roxhill/Westwood,pacific islander,76,21,166
+Roxhill/Westwood,native american,87,50,102
+Roxhill/Westwood,other,15,4,36
+Roxhill/Westwood,total,9121,3271,12698
+Seward Park,white,4259,233,4725
+Seward Park,black,1178,277,1052
+Seward Park,hispanic,517,246,985
+Seward Park,asian,1506,507,1933
+Seward Park,multiple,385,51,494
+Seward Park,pacific islander,43,11,0
+Seward Park,native american,13,4,22
+Seward Park,other,19,5,39
+Seward Park,total,7919,1335,9250
+South Beacon Hill/NewHolly,white,1082,518,1584
+South Beacon Hill/NewHolly,black,1803,2165,4147
+South Beacon Hill/NewHolly,hispanic,546,262,849
+South Beacon Hill/NewHolly,asian,5421,1817,7544
+South Beacon Hill/NewHolly,multiple,445,200,620
+South Beacon Hill/NewHolly,pacific islander,54,44,196
+South Beacon Hill/NewHolly,native american,46,17,170
+South Beacon Hill/NewHolly,other,10,2,0
+South Beacon Hill/NewHolly,total,9407,5025,15110
+South Park,white,836,245,1486
+South Park,black,232,88,117
+South Park,hispanic,787,416,1717
+South Park,asian,443,110,406
+South Park,multiple,75,26,136
+South Park,pacific islander,33,21,244
+South Park,native american,29,6,62
+South Park,other,4,1,6
+South Park,total,2438,912,4174
+Sunset Hill/Loyal Heights,white,8650,3310,12437
+Sunset Hill/Loyal Heights,black,82,68,42
+Sunset Hill/Loyal Heights,hispanic,355,184,910
+Sunset Hill/Loyal Heights,asian,339,170,520
+Sunset Hill/Loyal Heights,multiple,324,136,489
+Sunset Hill/Loyal Heights,pacific islander,8,10,30
+Sunset Hill/Loyal Heights,native american,42,21,28
+Sunset Hill/Loyal Heights,other,23,3,0
+Sunset Hill/Loyal Heights,total,9823,3902,14456
+University District,white,2664,6170,11259
+University District,black,66,258,436
+University District,hispanic,138,522,1258
+University District,asian,322,2282,4711
+University District,multiple,147,541,1255
+University District,pacific islander,4,24,66
+University District,native american,7,47,135
+University District,other,22,25,42
+University District,total,3371,9867,19162
+Wallingford,white,7526,4246,12468
+Wallingford,black,125,202,206
+Wallingford,hispanic,438,337,750
+Wallingford,asian,582,1680,2695
+Wallingford,multiple,387,340,864
+Wallingford,pacific islander,13,28,6
+Wallingford,native american,27,27,82
+Wallingford,other,14,15,46
+Wallingford,total,9114,6874,17117
+Wedgwood/View Ridge,white,10803,964,12454
+Wedgwood/View Ridge,black,160,58,108
+Wedgwood/View Ridge,hispanic,511,113,664
+Wedgwood/View Ridge,asian,1359,172,1776
+Wedgwood/View Ridge,multiple,541,66,776
+Wedgwood/View Ridge,pacific islander,10,2,0
+Wedgwood/View Ridge,native american,42,13,47
+Wedgwood/View Ridge,other,24,2,19
+Wedgwood/View Ridge,total,13450,1390,15844
+West Seattle Junction/Genesee Hill,white,11486,3317,15851
+West Seattle Junction/Genesee Hill,black,197,131,210
+West Seattle Junction/Genesee Hill,hispanic,616,229,900
+West Seattle Junction/Genesee Hill,asian,589,256,1037
+West Seattle Junction/Genesee Hill,multiple,534,183,934
+West Seattle Junction/Genesee Hill,pacific islander,23,20,35
+West Seattle Junction/Genesee Hill,native american,72,30,157
+West Seattle Junction/Genesee Hill,other,24,6,35
+West Seattle Junction/Genesee Hill,total,13541,4172,19159
+Whittier Heights,white,6665,3260,10477
+Whittier Heights,black,102,74,114
+Whittier Heights,hispanic,384,258,578
+Whittier Heights,asian,303,240,547
+Whittier Heights,multiple,258,179,563
+Whittier Heights,pacific islander,10,18,12
+Whittier Heights,native american,34,37,0
+Whittier Heights,other,23,16,0
+Whittier Heights,total,7779,4082,12291
