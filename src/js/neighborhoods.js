@@ -104,10 +104,10 @@ xhr("./assets/cra.geojson", function(err, data) {
       var color = [255, 255, 255];
       if (whiteness < average) {
         var normal = (whiteness - lowestWhiteness) / (average - lowestWhiteness);
-        color = colors.rgb.apply(null, lerp(colors.components.stDarkRed, [255, 255, 255], normal));
+        color = colors.rgb.apply(null, lerp(colors.components.stDarkPurple, [255, 255, 255], normal));
       } else {
         var normal = (highestWhiteness - whiteness) / (highestWhiteness - average);
-        color = colors.rgb.apply(null, lerp(colors.components.stDarkPurple, [255, 255, 255], normal));
+        color = colors.rgb.apply(null, lerp(colors.components.stDarkRed, [255, 255, 255], normal));
       }
       return {
         fillColor: color,
