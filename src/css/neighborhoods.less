@@ -1,5 +1,14 @@
 @import "seattletimes";
 
+@asian: #B1D781;
+@black: #1FAB9E;
+@hispanic: #FAD02F;
+@multiple: #2B4D70;
+@native-american: #7AF8FA;
+@other: #586473;
+@pacific-islander: #6BAFC6;
+@white: #CB6951;
+
 .interactive {
   max-width: 960px;
   font-size: 16px;
@@ -125,35 +134,35 @@ h3 {
 .block {
   display: inline-block;
   &.white {
-    background:  @df-light-gray;
+    background:  @white;
   }
 
   &.black {
-    background: @st-dark-green;
+    background: @black;
   }
 
   &.asian {
-    background: @st-light-blue;
+    background: @asian;
   }
 
   &.hispanic {
-    background: @df-blue;
+    background: @hispanic;
   }
 
   &.multiple {
-    background: peru;
+    background: @multiple;
   }
 
   &.pacific.islander {
-    background: @df-navy;
+    background: @pacific-islander;
   }
 
   &.native.american {
-    background: @st-dark-orange;
+    background: @native-american;
   }
 
   &.other {
-    background: @st-light-green;
+    background: @other;
   }
 }
 

@@ -6,7 +6,7 @@
     },
     "live": {
       "bucket": "projects.seattletimes.com",
-      "path": ""
+      "path": "2017/race-and-gender/zoning"
     }
   },
   "title": "",
@@ -16,5 +16,5 @@
   "sheets": [],
   "standout": false,
   "embedded": true,
-  "production": false
+  "production": true
 }
