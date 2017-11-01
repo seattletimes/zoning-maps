@@ -68,22 +68,26 @@ xhr("./assets/cra.geojson", function(err, data) {
       { label: "White", key: "white" }
     ];
     var total = hood.total;
+    var accumulator = { sf: 0, mf: 0 };
 
     demos.forEach(function(d) {
       var value = hood[d.key];
       [
         { element: singleBar, prop: "sf" },
         { element: multiBar, prop: "mf" }
-      ].forEach(function({ element, prop }) {
+      ].forEach(function(def) {
+        var { element, prop } = def;
         if (!total[prop]) return element.innerHTML = "NONE";
         var percent = value[prop] / total[prop] * 100;
+        accumulator[prop] += percent;
+        var tClass = accumulator[prop] >= 50 ? "tooltip right" : "tooltip";
         element.appendChild(m("div", {
           class: d.key + " block",
           style: `width: ${percent * .95}%`,
           "data-demo": d.key,
           "data-key": prop
         }, [
-          m("div", { class: "tooltip" }, `
+          m("div", { class: tClass }, `
             <div class="block ${d.key}"></div>
             <div class="text"><b>${d.key}</b>: ${percent.toFixed(1)}% (${commafy(value[prop])})</div>
           `)
